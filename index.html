@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Travel Plans</title>
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500;600&display=swap"
+  />
+  <link rel="stylesheet" href="css/style.css?v=4" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Travel Plans</h1>
+    <div id="auth-widget" class="auth-widget"></div>
+  </header>
+
+  <div class="home-hero">
+    <div class="home-hero-content">
+      <p class="home-hero-eyebrow">Dear Friends</p>
+      <h2 class="home-hero-title">Join Olga &amp; Serge<br />on their adventures</h2>
+    </div>
+  </div>
+
+  <div id="crew-roster" class="crew-roster"></div>
+
+  <main>
+    <div id="add-trip-cta"></div>
+    <div id="regions">
+      <p class="loading">Loading destinations…</p>
+    </div>
+  </main>
+
+  <footer class="site-footer" id="site-footer">
+    <p>Built for the crew.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script type="module" src="js/main.js?v=4"></script>
+</body>
+</html>
